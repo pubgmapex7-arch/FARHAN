@@ -1,0 +1,493 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE</title>
+  <style>
+*{
+
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+  background-image: linear-gradient( 260deg, rgb( 239, 91, 91), rgba(84, 229, 245,0.692 ));
+  
+}
+
+.navbar{
+
+width: 97%;
+height: 20px;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+/* background-color: aquamarine; */
+align-items: center;
+
+
+
+
+}
+
+.navlinks{
+    
+/* list-style: none; */
+display: flex;
+gap: 30px;
+text-align: end;
+
+
+}
+.navlinks a{
+    text-decoration: none;
+    /* color: khaki; */
+    font-size: 15px;
+    text-align: end;
+
+}
+.nav{
+
+position: relative;
+z-index: 10;
+
+
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.leftside{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.headingtext{
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: olive;
+}
+.headingpara{
+ 
+  color: black;
+  text-align: center;
+  align-item;
+}
+
+.seconddiv{
+   /* display: flex;  */
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: relative */
+ 
+  /* margin-top: -50px;
+  margin-right: 50px; */
+  
+  
+}
+.thirddiv {
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: -70px;
+  margin-right: 60px;
+  
+}
+
+
+
+  </style>  
+</head>
+<body>
+  <nav class="navbar">
+<a href="index6.html">
+    
+    <img src="icey-removebg-preview.png" alt="" style="height: 125px; width: 100px;;">
+</a>
+<h2 style="color: black;font-family: cursive;">ICY ICE-CREAMS!!</h2>
+<ul class="navlinks">
+    <li><a href="INDEX.html">Home</a></li>
+    <li><a href="#About">About us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact us.html">Contact us</a></li>
+    
+    
+
+
+
+
+</ul>
+<div class="btn">
+<button class="nav"> <a href="sign.html">Sign in</a></button>
+<button class="nav"> Log in</button>
+</div>
+
+
+
+  </nav>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffb6c1, #add8e6);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      text-align: center;
+      padding: 40px 0;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      width: 90%;
+      max-width: 1100px;
+      margin: 50px 0;
+    }
+
+    .service-card {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 30px 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .service-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+
+    .service-card h2 {
+      color: #ff69b4;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.2);
+      width: 100%;
+      color: #fff;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍨 Our Ice Cream Services 🍦</h1>
+  </header>
+
+  <section class="services">
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/707/707670.png" alt="Scoops Icon">
+      <h2>Custom Flavors</h2>
+      <p>Create your own ice cream flavor from a mix of our delicious ingredients. From strawberry swirls to chocolate chips — you decide!</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/857/857681.png" alt="Cone Icon">
+      <h2>Ice Cream Catering</h2>
+      <p>We bring the ice cream fun to your parties, weddings, and events with live serving stations and toppings galore!</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Cup Icon">
+      <h2>Ice Cream Delivery</h2>
+      <p>Order your favorite flavors straight to your doorstep — fresh, creamy, and perfectly chilled!</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1687/1687362.png" alt="Shake Icon">
+      <h2>Milkshakes & Sundaes</h2>
+      <p>Enjoy our signature sundaes and milkshakes made with premium ice cream and tasty toppings.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 SweetScoops Ice Cream | Made with ❤️ and sprinkles
+  </footer>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE</title>
+  <style>
+*{
+
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+  background-image: linear-gradient( 260deg, rgb( 239, 91, 91), rgba(84, 229, 245,0.692 ));
+  
+}
+
+.navbar{
+
+width: 97%;
+height: 20px;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+/* background-color: aquamarine; */
+align-items: center;
+
+
+
+
+}
+
+.navlinks{
+    
+/* list-style: none; */
+display: flex;
+gap: 30px;
+text-align: end;
+
+
+}
+.navlinks a{
+    text-decoration: none;
+    /* color: khaki; */
+    font-size: 15px;
+    text-align: end;
+
+}
+.nav{
+
+position: relative;
+z-index: 10;
+
+
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.leftside{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.headingtext{
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: olive;
+}
+.headingpara{
+ 
+  color: black;
+  text-align: center;
+  align-item;
+}
+
+.seconddiv{
+   /* display: flex;  */
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: relative */
+ 
+  /* margin-top: -50px;
+  margin-right: 50px; */
+  
+  
+}
+.thirddiv {
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: -70px;
+  margin-right: 60px;
+  
+}
+
+
+
+  </style>  
+</head>
+<body>
+  <nav class="navbar">
+<a href="index6.html">
+    
+    <img src="icey-removebg-preview.png" alt="" style="height: 125px; width: 100px;;">
+</a>
+<!-- <h2 style="color: black;font-family: cursive;">ICY ICE-CREAMS!!</h2> -->
+<ul class="navlinks">
+    <li><a href="INDEX.html">Home</a></li>
+    <li><a href="ABOUT US.html">About us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact us.html">Contact us</a></li>
+    
+    
+
+
+
+
+</ul>
+<div class="btn">
+<button class="nav"> <a href="sign.html">Sign in</a></button>
+<button class="nav"> <a href="LOGIN.HTML">Log-In</a></button>
+</div>
+
+
+
+  </nav>
+  <style>
+    /* Root styles */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, skyblue, pink);
+      color: #333;
+    }
+
+    .service-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 10%;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .left-content, .right-images {
+      flex: 1 1 400px;
+      padding: 20px;
+    }
+
+    .left-content {
+      max-width: 500px;
+    }
+
+    .left-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    }
+
+    .left-content p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #f8f8f8;
+    }
+
+    .right-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      justify-items: center;
+    }
+
+    .right-images img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .right-images img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    @media (max-width: 768px) {
+      .service-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+      }
+
+      .left-content h1 {
+        font-size: 2rem;
+      }
+
+      .right-images {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="service-section">
+    <div class="left-content">
+      <h1>Delicious Ice Cream Services</h1>
+      <p>
+        We craft happiness in every scoop! From classic vanilla to exotic fruit fusions,
+        our ice cream services cater to events, parties, and personal cravings.
+        Experience the freshness of premium ingredients, creamy textures, and delightful toppings —
+        all tailored to make your moments sweeter.
+      </p>
+    </div>
+
+    <div class="right
+

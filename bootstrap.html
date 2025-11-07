@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE</title>
+  <style>
+*{
+
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+  background-image: linear-gradient( 260deg, rgb( 239, 91, 91), rgba(84, 229, 245,0.692 ));
+  
+}
+
+.navbar{
+
+width: 97%;
+height: 20px;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+/* background-color: aquamarine; */
+align-items: center;
+
+
+
+
+}
+
+.navlinks{
+    
+/* list-style: none; */
+display: flex;
+gap: 30px;
+text-align: end;
+
+
+}
+.navlinks a{
+    text-decoration: none;
+    /* color: khaki; */
+    font-size: 15px;
+    text-align: end;
+
+}
+.nav{
+
+position: relative;
+z-index: 10;
+
+
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.leftside{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.headingtext{
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: olive;
+}
+.headingpara{
+ 
+  color: black;
+  text-align: center;
+  align-item;
+}
+
+.seconddiv{
+   /* display: flex;  */
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: relative */
+ 
+  /* margin-top: -50px;
+  margin-right: 50px; */
+  
+  
+}
+.thirddiv {
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: -70px;
+  margin-right: 60px;
+  
+}
+
+
+
+  </style>  
+</head>
+<body>
+  <nav class="navbar">
+<a href="index6.html">
+    
+    <img src="icey-removebg-preview.png" alt="" style="height: 125px; width: 100px;;">
+</a>
+<h2 style="color: black;font-family: cursive;">ICY ICE-CREAMS!!</h2>
+<ul class="navlinks">
+    <li><a href="INDEX.html">Home</a></li>
+    <li><a href="#About">About us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact us.html">Contact us</a></li>
+    
+    
+
+
+
+
+</ul>
+<div class="btn">
+<button class="nav"> <a href="sign.html">Sign in</a></button>
+<button class="nav"> Log in</button>
+</div>
+
+
+
+  </nav>
+  <div class="container">
+
+    <div class="leftside">
+<div class="headingtext">
+  <h2 style="color: olive;">ICY ICECREAMS!</h2>
+</div>
+<div class="headingpara">
+  <p style="color: black;font-family: cursive;">“A delicious scoop of colorful ice cream melting on a sunny day.”
+    <p>Ice cream is one of the world’s most beloved desserts, offering a perfect blend of sweetness, creaminess, and refreshment. Made from a rich mixture of milk, cream, sugar, and flavorings, it’s a treat that brings happiness to people of all ages. From classic favorites like vanilla, chocolate, and strawberry to adventurous flavors such as salted caramel, pistachio, or cookies and cream, ice cream offers endless possibilities for every taste. Beyond its flavor variety, ice cream can be enjoyed in many forms—served in crispy waffle cones, creamy sundaes, milkshakes, or even as part of cakes and pastries. On warm summer days, a scoop of ice cream is the perfect way to cool down, while during celebrations, it adds a festive touch to any occasion. Artisanal and homemade versions have also become increasingly popular, highlighting natural ingredients and unique combinations. No matter the season or reason, ice cream continues to be a timeless indulgence that brings people together. It’s more than just a dessert—it’s a symbol of joy, comfort, and sweet memories shared with family and friends.</p>
+</p>
+</div>
+    </div>
+     <div class="seconddiv">
+      <!-- <img src="hihi-removebg-preview.png" >
+      <img src="hihi-removebg-preview.png" >   
+       -->
+      
+    </div> 
+    <div class="thirddiv">
+       <img src="hihi-removebg-preview.png" >
+      <!-- <img src="hihi-removebg-preview.png" >  -->
+
+    </div>
+
+
+    
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me - Ice Cream</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8f0;
+    color: #4a2c2a;
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background: linear-gradient(135deg, #ffe3ec 0%, #fff0b3 100%);
+    flex-wrap: wrap;
+  }
+
+  .about-left {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+  }
+
+  .about-left h2 {
+    font-size: 2.2rem;
+    color: #b3476b;
+    margin-bottom: 15px;
+  }
+
+  .about-left p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .about-right {
+    flex: 1;
+    min-width: 280px;
+    height: 320px;
+    background: url('your-image.jpg') center/cover no-repeat;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-top: 20px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .about-right {
+      width: 80%;
+      height: 250px;
+      margin: 20px auto 0;
+
+
+    }
+  }
+</style>
+</head>
+<body>
+
+<section class="about-section">
+  <div class="about-left">
+    <h2>About Me 🍦</h2>
+    <p>Hey there! I’m <strong>Farhan</strong>, the creator behind <em>Sweet Swirls Ice Creams</em>. 
+    My passion for crafting delightful frozen treats started in my grandmother’s kitchen, where I learned that love and creativity are the best ingredients. 
+    I believe every scoop tells a story — one filled with sweetness, joy, and a sprinkle of nostalgia. 
+    Explore my world of creamy flavors and find your happy scoop!</p>
+  </div>
+
+  <div class="about-right">
+    <!-- Add your image in background using CSS or replace with <img> tag if preferred -->
+  </div>
+</section>
+
+</body>
+</html>

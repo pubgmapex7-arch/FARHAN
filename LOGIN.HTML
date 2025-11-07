@@ -1,0 +1,301 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE</title>
+  <style>
+*{
+
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+  background-image: linear-gradient( 260deg, rgb( 239, 91, 91), rgba(84, 229, 245,0.692 ));
+  
+}
+
+.navbar{
+
+width: 97%;
+height: 40px;
+display: flex;
+justify-content: space-between;
+/* padding: 20px; */
+/* background-color: aquamarine; */
+align-items: center;
+padding: 20px;
+
+
+
+
+}
+
+.navlinks{
+    
+/* list-style: none; */
+display: flex;
+gap: 30px;
+text-align: end;
+
+
+}
+.navlinks a{
+    text-decoration: none;
+    /* color: khaki; */
+    font-size: 15px;
+    text-align: end;
+
+}
+.nav{
+
+position: relative;
+z-index: 10;
+border-radius: 10px;
+width: 70px;
+height: 30px;
+background-image: linear-gradient( 260deg, rgb(199, 91, 239), rgba(84, 245, 221, 0.034));
+border: 2px  rgb(199, 91,239);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.leftside{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.headingtext{
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: olive;
+}
+.headingpara{
+ 
+  color: olive;
+  text-align: center;
+}
+
+.seconddiv{
+   /* display: flex;  */
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  position: relative
+  z-index: 1;
+  float: right; 
+  margin-top: -50px;
+  margin-right: 50px;
+  
+  
+  
+}
+.thirddiv {
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: -70px;
+  margin-right: 60px;
+  
+}
+.container{
+  display:  flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+  form{
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background: linear-gradient(135deg, #ffe3ec 0%, #fff0b3 100%);
+    flex-wrap: wrap;
+  }
+
+  .about-left {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+  }
+
+  .about-left h2 {
+    font-size: 2.2rem;
+    color: #b3476b;
+    margin-bottom: 15px;
+  }
+
+  .about-left p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .about-right {
+    flex: 1;
+    min-width: 280px;
+    height: 320px;
+    background: url('your-image.jpg') center/cover no-repeat;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-top: 20px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .about-right {
+      width: 80%;
+      height: 250px;
+      margin: 20px auto 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- <section class="about-section">
+  <div class="about-left">
+    <h2>About Me 🍦</h2>
+    <p>Hey there! I’m <strong>Riya</strong>, the creator behind <em>Sweet Swirls Ice Creams</em>. 
+    My passion for crafting delightful frozen treats started in my grandmother’s kitchen, where I learned that love and creativity are the best ingredients. 
+    I believe every scoop tells a story — one filled with sweetness, joy, and a sprinkle of nostalgia. 
+    Explore my world of creamy flavors and find your happy scoop!</p>
+  </div>
+
+  <div class="about-right">
+    <!-- Add your image in background using CSS or replace with <img> tag if preferred -->
+  </div>
+</section> -->
+
+
+  </style>  
+</head>
+<body>
+  <nav class="navbar">
+<a href="LOGIN.HTML">
+    
+    <img src="icey-removebg-preview.png" alt="" style="height: 125px; width: 100px; padding: 1px; margin-top: 52px;">
+</a>
+<!-- <h2 style="color: black;font-family: cursive;">ICY ICE-CREAMS!!</h2> -->
+<ul class="navlinks">
+    <li><a href="INDEX.html">Home</a></li>
+    <li><a href="ABOUT US.html">About us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact us.html">Contact us</a></li>
+    
+    
+
+
+
+
+</ul>
+<div class="btn">
+<button class="nav"> <a href="sign.html">Sign in</a></button>
+<button class="nav"> Log in</button>
+</div>
+
+
+</nav>
+
+ <H2 style="font-family: monospace; color: black;margin-bottom: -55px; text-align: center; text-decoration: underline;">Log-in before your ice cream melts!</H2> 
+<div class="container">
+<div class="form">
+
+
+  <form>
+    <h1 style="font-family: monospace;;">Log-In</h1>
+    <br>
+    <label for="">Enter Your Name</label>
+    <br>
+    <input type="text" id="name" placeholder="Enter your name...">
+    <br>
+    <!-- <label for="">Last Name</label>
+    <br>
+    <input type="text" id="name" placeholder="Enter your last name..">
+    <br>
+    <label for="">E-mail</label>
+    <br>
+    <input type="E-mail" name="@gmail" id="E-mail" placeholder="abc@gmail.com">
+    <br> -->
+    <label for="">Password</label>
+    <br>
+    
+    <input type="password" name="password" id="pass"   placeholder="Enter Password">
+    <br>
+    
+    <label for="">Confirm Password</label>
+    <br>
+    <input type="password" name="password" id="Pass" placeholder="Confirm Password">
+    <br>
+<input type="submit" value="submit" id="submit">
+
+<input type="checkbox" name="" id="">
+
+  </form>
+</div>
+
+
+
+
+
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+     background-image: linear-gradient( 260deg, rgb(199, 91, 239), rgba(84, 245, 221, 0.034));
+}
+
+    </style>
+</head>
+<body>
+     
+    <!-- <h1 style="text-align: center;text-decoration: underline; font-family: cursive;">Sign in Page</h1> -->
+
+    
+    
+
+
+
+
+
+
+</body>
+</html>
